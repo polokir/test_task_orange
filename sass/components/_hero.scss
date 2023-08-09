@@ -1,0 +1,94 @@
+.hero {
+  display: flex;
+  align-items: center;
+  &-picture {
+    position: relative;
+    &-link {
+      position: absolute;
+      display: block;
+      width: 222px;
+      height: 71px;
+      bottom: 0;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+
+      text-align: center;
+      text-decoration: none;
+      background-color: #fff;
+      color: var(--gray-1, #333);
+      //font-family: 'TT Hoves';
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 12px; 
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+    }
+  }
+
+  &-img {
+    position: relative;
+  }
+
+  &-title {
+    color: #bdbdbd;
+    //font-family: "TT Hoves";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px; /* 100% */
+  }
+
+  &-subtitle {
+    color: #333;
+    //font-family: "TT Hoves";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 100% */
+  }
+
+  &-issues {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+  }
+
+  &-button {
+    border: 1px solid #f2f2f2;
+    background: #f9f9f9;
+    width: 53px;
+    height: 53px;
+  }
+
+  &-date {
+    color: var(--gray-4, #bdbdbd);
+    //font-family: "TT Hoves";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+    display: flex;
+    gap: 23px;
+    align-items: center;
+  }
+}
+
+.button-panel {
+  display: flex;
+  gap: 23px;
+}
+
+.date{
+  &-line{
+    display: block;
+    width: 44px;
+    height: 1px;
+    background-color: #E0E0E0;
+    transform: rotate(-45deg);
+    
+  }
+}
